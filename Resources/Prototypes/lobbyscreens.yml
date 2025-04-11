@@ -123,6 +123,12 @@
   artist: PubliclyExecutedPig
 
 - type: lobbyBackground
+  id: chatsucks
+  background: /Textures/LobbyScreens/ChatFuckingSucks.webp
+  name: This Fucking Sucks
+  artist: NeptuneZvezda
+
+- type: lobbyBackground
   id: clown
   background: /Textures/LobbyScreens/clown.webp
   name: Clown
@@ -181,12 +187,6 @@
   background: /Textures/LobbyScreens/goob.webp
   name: Goob
   artist: Diebeck
-
-- type: lobbyBackground
-  id: GoobNukie
-  background: /Textures/LobbyScreens/GoobNukie.webp
-  name: Goob Nukie
-  artist: Cheeki
 
 - type: lobbyBackground
   id: grandtheftgoob
@@ -259,3 +259,9 @@
   background: /Textures/LobbyScreens/enlist.webp
   name: Nanotrasen wants YOU.
   artist: thebiggestbruh
+
+- type: lobbyBackground
+  id: memecollage
+  background: /Textures/LobbyScreens/MemeCollageLobbyArt.webp
+  name: Space Station 14 Meme Collage
+  artist: NeptuneZvezda
