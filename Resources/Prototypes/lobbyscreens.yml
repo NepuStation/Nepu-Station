@@ -183,9 +183,9 @@
   artist: Gugelc1988
 
 - type: lobbyBackground
-  id: feastops
-  background: /Textures/LobbyScreens/Feastops.webp
-  name: Feastops
+  id: clowntidercapcc
+  background: /Textures/LobbyScreens/clowntidercapcc.webp
+  name: Clown, Tider, Captain and CentCom
   artist: Gugelc1988
 
 - type: lobbyBackground
