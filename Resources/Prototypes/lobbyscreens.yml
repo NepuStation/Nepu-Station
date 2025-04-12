@@ -183,12 +183,6 @@
   artist: Gugelc1988
 
 - type: lobbyBackground
-  id: clowntidercapcc
-  background: /Textures/LobbyScreens/clowntidercapcc.webp
-  name: Clown, Tider, Captain and CentCom
-  artist: Gugelc1988
-
-- type: lobbyBackground
   id: tiderkitchen
   background: /Textures/LobbyScreens/tiderkitchen.webp
   name: Tider Kitchen
