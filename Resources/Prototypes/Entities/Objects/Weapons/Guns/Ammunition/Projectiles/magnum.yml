@@ -40,18 +40,18 @@
 
 - type: entity
   id: BulletMagnum
-  name: bullet (.45 magnum)
+  name: bullet (.44 magnum FMJ)
   parent: BaseBullet
   categories: [ HideSpawnMenu ]
   components:
   - type: Projectile
     damage:
       types:
-        Piercing: 35
+        Piercing: 40
 
 - type: entity
   id: BulletMagnumPractice
-  name: bullet (.45 magnum practice)
+  name: bullet (.44 magnum Blammo)
   parent: BaseBulletPractice
   categories: [ HideSpawnMenu ]
   components:
@@ -63,7 +63,7 @@
 - type: entity
   id: BulletMagnumIncendiary
   parent: BaseBulletIncendiary
-  name: bullet (.45 magnum incendiary)
+  name: bullet (.44 magnum incendiary)
   categories: [ HideSpawnMenu ]
   components:
   - type: Projectile
@@ -74,19 +74,19 @@
 
 - type: entity
   id: BulletMagnumAP
-  name: bullet (.45 magnum armor-piercing)
+  name: bullet (.44 magnum armor-piercing)
   parent: BaseBullet # Goobstation edit
   categories: [ HideSpawnMenu ]
   components:
   - type: Projectile
     damage:
       types:
-        Piercing: 28 # Goobstation edit
-      armorPenetration: 0.75 # Goobstation
+        Piercing: 30 # Goobstation edit
+      armorPenetration: 0.4 # Goobstation
 
 - type: entity
   id: BulletMagnumUranium
-  name: bullet (.45 magnum uranium)
+  name: bullet (.44 magnum uranium)
   parent: BaseBulletUranium
   categories: [ HideSpawnMenu ]
   components:
