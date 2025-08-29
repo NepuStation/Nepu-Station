@@ -11,7 +11,7 @@
       armorPenetration: 0.4
 
 - type: entity
-  id: BulletMagnumAP
+  id: BulletMagnumHP
   name: bullet (.44 magnum HP)
   parent: BaseBullet
   categories: [ HideSpawnMenu ]
