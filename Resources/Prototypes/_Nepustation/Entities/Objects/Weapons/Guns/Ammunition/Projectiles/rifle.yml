@@ -1,6 +1,6 @@
 
 - type: entity
-  id: BulletRifle
+  id: BulletRifleHP
   name: bullet (5.56 mm HP)
   parent: BaseBullet
   categories: [ HideSpawnMenu ]
@@ -12,7 +12,7 @@
       armorPenetration: -0.30 # Goobstation
 
 - type: entity
-  id: BulletRifle
+  id: BulletRifleAP
   name: bullet (5.56 mm AP)
   parent: BaseBullet
   categories: [ HideSpawnMenu ]
