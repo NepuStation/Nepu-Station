@@ -32,20 +32,44 @@
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
 - type: entity
-  id: BulletLightRifle
-  name: bullet (0.30 rifle)
+  id: BulletLightRifleHP
+  name: bullet (7.62x39 mm HP)
   parent: BaseBullet
   categories: [ HideSpawnMenu ]
   components:
   - type: Projectile
     damage:
       types:
-        Piercing: 19
+        Piercing: 29
+      armorPenetration: -0.4 # Goobstation
+
+- type: entity
+  id: BulletLightRifle
+  name: bullet (7.62x39 mm FMJ)
+  parent: BaseBullet
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Projectile
+    damage:
+      types:
+        Piercing: 24
+      armorPenetration: 0.2 # Goobstation
+
+- type: entity
+  id: BulletLightRifleAP
+  name: bullet (7.62x39 mm AP)
+  parent: BaseBullet
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Projectile
+    damage:
+      types:
+        Piercing: 20
       armorPenetration: 0.4 # Goobstation
 
 - type: entity
   id: BulletLightRiflePractice
-  name: bullet (0.30 rifle practice)
+  name: bullet (7.62x39 mm Blammo)
   parent: BaseBulletPractice
   categories: [ HideSpawnMenu ]
   components:
@@ -57,7 +81,7 @@
 - type: entity
   id: BulletLightRifleIncendiary
   parent: BaseBulletIncendiary
-  name: bullet (0.30 rifle incendiary)
+  name: bullet (7.62x39 mm incendiary)
   categories: [ HideSpawnMenu ]
   components:
   - type: Projectile
@@ -69,7 +93,7 @@
 - type: entity
   id: BulletLightRifleUranium
   parent: BaseBulletUranium
-  name: bullet (0.30 rifle uranium)
+  name: bullet (7.62x39 mm uranium)
   categories: [ HideSpawnMenu ]
   components:
   - type: Projectile
