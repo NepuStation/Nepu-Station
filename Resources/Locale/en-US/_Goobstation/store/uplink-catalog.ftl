@@ -98,7 +98,7 @@ uplink-weapon-heavy-shotgun-name = NZ CSG-242 Heavy Shotgun
 uplink-weapon-heavy-shotgun-desc = Merciless heavy explosive weapon. The recoil when firing it is so extreme that it can knock you off your feet.
 
 uplink-WSPR-name = WSPR
-uplink-WSPR-desc = This rifle operates silently and uses 9.5mm caseless magnum hollow-point bullets, which are more effective against flesh but less effective against armor.
+uplink-WSPR-desc = This rifle operates silently and uses 5.7mm caseless magnum hollow-point bullets, which are more effective against flesh but less effective against armor.
 
 uplink-c20r-name = C-20r
 uplink-c20r-desc = Old faithful: The classic C-20r Submachine Gun.
@@ -153,11 +153,11 @@ uplink-mpapers-grenade-desc = Fires out 20 small pellets to turn your grenade la
 uplink-rifle-mag-name = Rifle Magazine (.20)
 uplink-rifle-mag-desc = A 25 round magazine containing .20 rifle bullets. Supports the Lecter and M-90.
 
-uplink-rifle-caseless-mag-name = Rifle Magazine (9.5mm HP)
-uplink-rifle-caseless-mag-desc = A 30 round rifle magazine filled with 9.5mm caseless magnum hollow-point bullets. Compatible with the WSPR.
+uplink-rifle-caseless-mag-name = Rifle Magazine (5.7mm HP)
+uplink-rifle-caseless-mag-desc = A 30 round rifle magazine filled with 5.7mm caseless magnum hollow-point bullets. Compatible with the WSPR.
 
-uplink-pistol-magazine-caseless-saphe-name = Pistol Magazine (9.5mm SAP-HE)
-uplink-pistol-magazine-caseless-saphe-desc = 10 rounds of 9.5mm caseless magnum semi-armor-piercing high-explosive ammunition. It is exactly what you have read. Compatible with the Cobra.
+uplink-pistol-magazine-caseless-saphe-name = Pistol Magazine (5.7mm SAP-HE)
+uplink-pistol-magazine-caseless-saphe-desc = 10 rounds of 5.7mm caseless magnum semi-armor-piercing high-explosive ammunition. It is exactly what you have read. Compatible with the Cobra.
 
 uplink-l6-box-name = Magazine Box (.30 rifle)
 uplink-l6-box-desc = Magazine box with 100 catridges. Compatible with the L6 SAW.

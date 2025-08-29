@@ -21,7 +21,7 @@
 
 - type: entity
   id: BaseCartridgeCaselessRifle
-  name: cartridge (9.5mm) # Goob edit
+  name: cartridge () # Goob edit
   parent: [ BaseCartridge, BaseSecurityContraband ]
   abstract: true
   components:
@@ -44,7 +44,7 @@
 
 - type: entity
   id: CartridgeCaselessRifle
-  name: cartridge (9.5mm HP) # Goob edit
+  name: cartridge (5.7mm HP) # Goob edit
   parent: BaseCartridgeCaselessRifle
   description: A small caliber utilizing caseless technology, omitting conventional brass casing in favor of hardened propellant. Standard kinetic ammunition is common and useful in most situations.
   components:
@@ -53,7 +53,7 @@
 
 - type: entity
   id: CartridgeCaselessRiflePractice
-  name: cartridge (9.5mm practice) # Goob edit
+  name: cartridge (5.7mm practice) # Goob edit
   parent: BaseCartridgeCaselessRifle
   description: A small caliber utilizing caseless technology, omitting conventional brass casing in favor of hardened propellant. Chalk ammunition is generally non-harmful, used for practice.
   components:
