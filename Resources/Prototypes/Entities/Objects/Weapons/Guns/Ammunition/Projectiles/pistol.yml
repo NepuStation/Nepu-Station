@@ -40,30 +40,6 @@
       armorPenetration: -0.15 # FMJs are good at penetrating armor, but not as good as AP rounds.
 
 - type: entity
-  id: BulletPistolHP
-  name: bullet (9mm HP)
-  parent: BaseBullet
-  categories: [ HideSpawnMenu ]
-  components:
-  - type: Projectile
-    damage:
-      types:
-        Piercing: 20 # Hollow points are great at taking down targets.
-      armorPenetration: -0.3 # however, they are bad at piercing armor.
-
-- type: entity
-  id: BulletPistolAP
-  name: bullet (9mm AP)
-  parent: BaseBullet
-  categories: [ HideSpawnMenu ]
-  components:
-  - type: Projectile
-    damage:
-      types:
-        Piercing: 15 # AP rounds are good at penetrating things. This is great until the target doesn't have armor, where it goes through them.
-      armorPenetration: 0.25 # Pistol caliber AP isn't as fast as rifle caliber AP rounds.
-
-- type: entity
   id: BulletPistolPractice
   name: bullet (9mm Blammo) # they're NOT Simunitions that's a trademarked name. Practice rounds sound stupid, too.
   parent: BaseBulletPractice

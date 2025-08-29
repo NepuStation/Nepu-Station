@@ -73,18 +73,6 @@
         Heat: 7
 
 - type: entity
-  id: BulletMagnumAP
-  name: bullet (.44 magnum armor-piercing)
-  parent: BaseBullet # Goobstation edit
-  categories: [ HideSpawnMenu ]
-  components:
-  - type: Projectile
-    damage:
-      types:
-        Piercing: 30 # Goobstation edit
-      armorPenetration: 0.4 # Goobstation
-
-- type: entity
   id: BulletMagnumUranium
   name: bullet (.44 magnum uranium)
   parent: BaseBulletUranium

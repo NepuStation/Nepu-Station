@@ -33,19 +33,19 @@
 
 - type: entity
   id: BulletRifle
-  name: bullet (0.20 rifle)
+  name: bullet (5.56 mm FMJ)
   parent: BaseBullet
   categories: [ HideSpawnMenu ]
   components:
   - type: Projectile
     damage:
       types:
-        Piercing: 17
-      armorPenetration: 0.15 # Goobstation
+        Piercing: 19
+      armorPenetration: 0.20 # Goobstation
 
 - type: entity
   id: BulletRiflePractice
-  name: bullet (0.20 rifle practice)
+  name: bullet (5.56 mm Blammo)
   parent: BaseBulletPractice
   categories: [ HideSpawnMenu ]
   components:
@@ -57,7 +57,7 @@
 - type: entity
   id: BulletRifleIncendiary
   parent: BaseBulletIncendiary
-  name: bullet (0.20 rifle incendiary)
+  name: bullet (5.56 mm incendiary)
   categories: [ HideSpawnMenu ]
   components:
   - type: Projectile
@@ -69,7 +69,7 @@
 - type: entity
   id: BulletRifleUranium
   parent: BaseBulletUranium
-  name: bullet (0.20 rifle uranium)
+  name: bullet (5.56 mm uranium)
   categories: [ HideSpawnMenu ]
   components:
   - type: Projectile

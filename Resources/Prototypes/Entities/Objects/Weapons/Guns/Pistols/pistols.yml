@@ -267,7 +267,7 @@
   name: cobra
   parent: [ BaseWeaponPistol, BaseSyndicateContraband ]
   id: WeaponPistolCobra
-  description: Integrally suppressed semi-automatic pistol used by the Syndicate, firing caseless subsonic rounds. Favored by any agent who likes to keep things quiet and leave no evidence behind. Feeds from 9.5mm pistol magazines.
+  description: Integrally suppressed semi-automatic pistol used by the Syndicate, firing caseless subsonic rounds. Favored by any agent who likes to keep things quiet. Feeds from 5.7mm pistol magazines.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Pistols/cobra.rsi
