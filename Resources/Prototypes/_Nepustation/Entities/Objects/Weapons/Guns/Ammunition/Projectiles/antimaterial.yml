@@ -1,0 +1,14 @@
+- type: entity
+  categories: [ HideSpawnMenu ]
+  parent: BaseBullet
+  id: BulletAntiMateriel
+  name: bullet (.50 BMG SLAP) # *coughs* A .50 BMG (12.7x99mm NATO) M903 SLAP (Saboted Light Armor Penetrator) cartridge.
+  components: # Created by placing a 7.62 armor-piercing bullet in a polymer container that separates after leaving the barrel.
+  - type: Projectile # The cartridge has significant stopping power and is capable of inflicting devastating damage to the target upon impact.
+    damage: # - Battlestate Games, Escape From Tarkov
+      types:
+        Piercing: 75
+      armorPenetration: 0.75
+    penetrationThreshold: 200
+  - type: StaminaDamageOnCollide
+    damage: 50

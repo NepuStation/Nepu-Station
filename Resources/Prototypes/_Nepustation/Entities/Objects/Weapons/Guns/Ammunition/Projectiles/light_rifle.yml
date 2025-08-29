@@ -1,0 +1,23 @@
+- type: entity
+  id: BulletLightRifleAP
+  name: bullet (7.62x39 mm AP)
+  parent: BaseBullet
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Projectile
+    damage:
+      types:
+        Piercing: 20
+      armorPenetration: 0.4 # Goobstation
+
+- type: entity
+  id: BulletLightRifleHP
+  name: bullet (7.62x39 mm HP)
+  parent: BaseBullet
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Projectile
+    damage:
+      types:
+        Piercing: 29
+      armorPenetration: -0.4 # Goobstation
