@@ -37,7 +37,7 @@
     damage:
       types:
         Piercing: 17.5
-      armorPenetration: -0.15 # FMJs are good at penetrating armor, but not
+      armorPenetration: -0.15 # FMJs are good at penetrating armor, but not as good as AP rounds.
 
 - type: entity
   id: BulletPistolHP
