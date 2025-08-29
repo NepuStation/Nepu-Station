@@ -40,7 +40,7 @@
   categories: [ HideSpawnMenu ]
   parent: BaseBullet
   id: BulletAntiMateriel
-  name: bullet (.50 BMG)
+  name: bullet (12.7x99 mm)
   components:
   - type: Projectile
     damage:
