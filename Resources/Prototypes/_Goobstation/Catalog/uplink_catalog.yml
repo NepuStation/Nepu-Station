@@ -1063,7 +1063,7 @@
 #  id: UplinkHighCaliberBox
 #  name: uplink-high-caliber-box-name
 #  description: uplink-high-caliber-box-desc
-#  icon: { sprite: /Textures/Objects/Weapons/Guns/Ammunition/Boxes/anti_Material.rsi, state: base-b }
+#  icon: { sprite: /Textures/Objects/Weapons/Guns/Ammunition/Boxes/anti_material.rsi, state: base-b }
 #  productEntity: MagazineBoxHighCaliber
 #  cost:
 #    Telecrystal: 40 # ammo should be a big cost for this
