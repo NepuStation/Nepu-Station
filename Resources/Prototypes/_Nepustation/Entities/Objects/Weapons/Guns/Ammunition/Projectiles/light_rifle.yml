@@ -8,7 +8,7 @@
     damage:
       types:
         Piercing: 20
-      armorPenetration: 0.4 # Goobstation
+      armorPenetration: 0.4
 
 - type: entity
   id: BulletLightRifleHP
@@ -20,4 +20,4 @@
     damage:
       types:
         Piercing: 29
-      armorPenetration: -0.4 # Goobstation
+      armorPenetration: -0.4
