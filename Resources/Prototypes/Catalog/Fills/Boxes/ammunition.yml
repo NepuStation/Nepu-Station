@@ -85,10 +85,10 @@
 
 # Magnum
 - type: entity
-  name: box of SMG .45 magnum magazines
+  name: box of SMG .44 Magnum magazines
   parent: BoxMagazine
   id: BoxMagazineMagnumSubMachineGun
-  description: A box full of SMG .45 magnum magazines.
+  description: A box full of SMG .44 Magnum magazines.
   components:
   - type: StorageFill
     contents:
@@ -96,10 +96,10 @@
         amount: 3
 
 - type: entity
-  name: box of SMG .45 magnum (practice) magazines
+  name: box of SMG .44 Magnum (practice) magazines
   parent: BoxMagazine
   id: BoxMagazineMagnumSubMachineGunPractice
-  description: A box full of SMG .45 magnum (practice) magazines.
+  description: A box full of SMG .44 Magnum (practice) magazines.
   components:
   - type: StorageFill
     contents:
@@ -108,10 +108,10 @@
 
 # Pistol
 - type: entity
-  name: box of WT550 .35 auto magazines
+  name: box of WT550 9mm magazines
   parent: BoxMagazine
   id: BoxMagazinePistolSubMachineGunTopMounted
-  description: A box full of WT550 .35 auto magazines.
+  description: A box full of WT550 9mm magazines.
   components:
   - type: StorageFill
     contents:
@@ -119,10 +119,10 @@
         amount: 3
 
 - type: entity
-  name: box of pistol .35 auto magazines
+  name: box of pistol 9mm magazines
   parent: BoxMagazine
   id: BoxMagazinePistol
-  description: A box full of pistol .35 auto magazines.
+  description: A box full of pistol 9mm magazines.
   components:
   - type: StorageFill
     contents:
@@ -130,7 +130,7 @@
         amount: 4
 
 - type: entity
-  name: box of pistol .35 auto (practice) magazines
+  name: box of pistol 9mm (practice) magazines
   parent: BoxMagazine
   id: BoxMagazinePistolPractice
   description: A box full of  magazines.
@@ -141,10 +141,10 @@
         amount: 4
 
 - type: entity
-  name: box of machine pistol .35 auto magazines
+  name: box of machine pistol 9mm magazines
   parent: BoxMagazine
   id: BoxMagazinePistolHighCapacity
-  description: A box full of machine pistol .35 auto magazines.
+  description: A box full of machine pistol 9mm magazines.
   components:
   - type: StorageFill
     contents:
@@ -152,10 +152,10 @@
         amount: 4
 
 - type: entity
-  name: box of machine pistol .35 auto (practice) magazines
+  name: box of machine pistol 9mm (practice) magazines
   parent: BoxMagazine
   id: BoxMagazinePistolHighCapacityPractice
-  description: A box full of machine pistol .35 auto (practice) magazines.
+  description: A box full of machine pistol 9mm (practice) magazines.
   components:
   - type: StorageFill
     contents:
@@ -163,10 +163,10 @@
         amount: 4
 
 - type: entity
-  name: box of SMG .35 auto magazines
+  name: box of SMG 9mm magazines
   parent: BoxMagazine
   id: BoxMagazinePistolSubMachineGun
-  description: A box full of SMG .35 auto magazines.
+  description: A box full of SMG 9mm magazines.
   components:
   - type: StorageFill
     contents:
@@ -174,10 +174,10 @@
         amount: 3
 
 - type: entity
-  name: box of SMG .35 auto (practice) magazines
+  name: box of SMG 9mm (practice) magazines
   parent: BoxMagazine
   id: BoxMagazinePistolSubMachineGunPractice
-  description: A box full of SMG .35 auto (practice) magazines.
+  description: A box full of SMG 9mm (practice) magazines.
   components:
   - type: StorageFill
     contents:

@@ -21,3 +21,15 @@
       types:
         Piercing: 50
       armorPenetration: -0.4
+
+- type: entity
+  id: BulletMagnumSabot
+  name: bullet (.44 magnum sabot)
+  parent: BaseBullet
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Projectile
+    damage:
+      types:
+        Piercing: 40
+      armorPenetration: 1

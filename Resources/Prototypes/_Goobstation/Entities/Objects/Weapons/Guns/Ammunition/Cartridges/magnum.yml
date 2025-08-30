@@ -9,7 +9,7 @@
 # SPDX-License-Identifier: AGPL-3.0-or-later
 #- type: entity
 #  id: CartridgeMagnumEnsnaring
-#  name: cartridge (.45 magnum ensnaring)
+#  name: cartridge (.44 Magnum ensnaring)
 #  parent: BaseCartridgeMagnum
 #  components:
 #  - type: CartridgeAmmo
@@ -24,7 +24,7 @@
 #
 #- type: entity
 #  id: CartridgeMagnumEMP
-#  name: cartridge (.45 magnum EMP)
+#  name: cartridge (.44 Magnum EMP)
 #  parent: BaseCartridgeMagnum
 #  components:
 #  - type: CartridgeAmmo
@@ -39,7 +39,7 @@
 #
 #- type: entity
 #  id: CartridgeMagnumFlash
-#  name: cartridge (.45 magnum flash)
+#  name: cartridge (.44 Magnum flash)
 #  parent: BaseCartridgeMagnum
 #  components:
 #  - type: CartridgeAmmo
