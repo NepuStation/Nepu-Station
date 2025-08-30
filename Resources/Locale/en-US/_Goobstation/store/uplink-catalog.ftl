@@ -159,7 +159,7 @@ uplink-rifle-caseless-mag-desc = A 30 round rifle magazine filled with 5.7mm cas
 uplink-pistol-magazine-caseless-saphe-name = Pistol Magazine (5.7mm SAP-HE)
 uplink-pistol-magazine-caseless-saphe-desc = 10 rounds of 5.7mm caseless magnum semi-armor-piercing high-explosive ammunition. It is exactly what you have read. Compatible with the Cobra.
 
-uplink-l6-box-name = Magazine Box (.30 rifle)
+uplink-l6-box-name = Magazine Box (7.62x39mm)
 uplink-l6-box-desc = Magazine box with 100 catridges. Compatible with the L6 SAW.
 
 uplink-shotgun-magazine-name = Shotgun Drum (12 gauge pellet)
@@ -168,14 +168,14 @@ uplink-shotgun-magazine-desc = Shotgun drum with 8 pellet shells. Compatible wit
 uplink-shotgun-magazine-slug-name = Shotgun Drum (12 gauge slug)
 uplink-shotgun-magazine-slug-desc = Shotgun drum with 8 slug shells. Compatible with the Bulldog.
 
-uplink-high-caliber-magazine-name = Rifle Magazine (.50 anti-materiel)
+uplink-high-caliber-magazine-name = Rifle Magazine (.50 anti-material)
 uplink-high-caliber-magazine-desc = Heavy rifle magazine with 15 cartridges. Compatible with the Burner.
 
 uplink-high-caliber-explosive-magazine-name = Rifle Magazine (.50 HEI)
 uplink-high-caliber-explosive-magazine-desc = Heavy rifle magazine with 15 High Explosive Incendiary cartridges. Compatible with the Burner.
 
 uplink-high-caliber-box-name = .50 Ammo box
-uplink-high-caliber-box-desc = A box of 30 .50 caliber anti-materiel rounds.
+uplink-high-caliber-box-desc = A box of 30 .50 caliber anti-material rounds.
 
 uplink-highcap-pistol-mag-name = High Capacity Pistol Magazine (9mm)
 uplink-highcap-pistol-mag-desc = High capacity pistol magazine holds 4 extra bullets for a total of 16 rounds.

@@ -62,10 +62,10 @@
 
 # LightRifle
 - type: entity
-  name: box of .30 rifle magazines
+  name: box of 7.62x39mm magazines
   parent: BoxMagazine
   id: BoxMagazineLightRifle
-  description: A box full of .30 rifle magazines.
+  description: A box full of 7.62x39mm magazines.
   components:
   - type: StorageFill
     contents:
@@ -73,10 +73,10 @@
         amount: 4
 
 - type: entity
-  name: box of .30 rifle (practice) magazines
+  name: box of 7.62x39mm (practice) magazines
   parent: BoxMagazine
   id: BoxMagazineLightRiflePractice
-  description: A box full of .30 rifle (practice) magazines.
+  description: A box full of 7.62x39mm (practice) magazines.
   components:
   - type: StorageFill
     contents:

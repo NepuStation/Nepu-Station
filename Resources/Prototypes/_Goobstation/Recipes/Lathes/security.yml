@@ -675,8 +675,8 @@
 
 - type: latheRecipe
   parent: BaseAmmoRecipe
-  id: MagazineBoxAntiMateriel
-  result: MagazineBoxAntiMateriel
+  id: MagazineBoxAntiMaterial
+  result: MagazineBoxAntiMaterial
   materials:
     Steel: 1500
 

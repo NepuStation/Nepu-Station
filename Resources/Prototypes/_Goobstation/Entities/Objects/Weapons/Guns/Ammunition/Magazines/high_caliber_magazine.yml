@@ -52,7 +52,7 @@
 
 - type: entity
   id: MagazineHighCaliber
-  name: "magazine (.50 anti-materiel)"
+  name: "magazine (.50 anti-Material)"
   parent: BaseMagazineHighCaliber
   components:
   - type: BallisticAmmoProvider
@@ -74,22 +74,22 @@
       map: ["enum.GunVisualLayers.Mag"]
 
 - type: entity
-  id: BaseMagazineAntiMateriel
+  id: BaseMagazineAntiMaterial
   name: "magazine (.60 caliber)"
   parent: [ BaseItem, BaseSyndicateContraband ]
   abstract: true
   components:
   - type: Tag
     tags:
-    - MagazineAntiMateriel
+    - MagazineAntiMaterial
   - type: Item
     size: Small
   - type: BallisticAmmoProvider
     mayTransfer: true
     whitelist:
       tags:
-      - CartridgeAntiMateriel
-    proto: CartridgeAntiMateriel
+      - CartridgeAntiMaterial
+    proto: CartridgeAntiMaterial
     capacity: 5
   - type: ContainerContainer
     containers:
@@ -108,17 +108,17 @@
   - type: Appearance
 
 - type: entity
-  id: MagazineAntiMaterielEmpty
-  name: "magazine (.60 empty)"
-  parent: BaseMagazineAntiMateriel
+  id: MagazineAntiMaterialEmpty
+  name: "magazine (12.7x99mm)"
+  parent: BaseMagazineAntiMaterial
   components:
   - type: BallisticAmmoProvider
     proto: null
 
 - type: entity
-  id: MagazineAntiMateriel
-  name: "magazine (.60 anti-materiel)"
-  parent: BaseMagazineAntiMateriel
+  id: MagazineAntiMaterial
+  name: "magazine (12.7x99mm)"
+  parent: BaseMagazineAntiMaterial
   components:
   - type: BallisticAmmoProvider
-    proto: CartridgeAntiMateriel
+    proto: CartridgeAntiMaterial

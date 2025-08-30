@@ -31,8 +31,8 @@
 - type: entity
   abstract: true
   parent: [ BaseItem, BaseSecurityContraband ]
-  id: BaseMagazineBoxAntiMateriel
-  name: ammunition box (.60 anti-materiel)
+  id: BaseMagazineBoxAntiMaterial
+  name: ammunition box (.60 anti-Material)
   components:
   # Goobstation edit start
   - type: EmitSoundOnPickup
@@ -49,8 +49,8 @@
     mayTransfer: true
     whitelist:
       tags:
-        - CartridgeAntiMateriel
-    proto: CartridgeAntiMateriel
+        - CartridgeAntiMaterial
+    proto: CartridgeAntiMaterial
     capacity: 10
   - type: Item
     size: Small
@@ -58,7 +58,7 @@
     containers:
       ballistic-ammo: !type:Container
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Ammunition/Boxes/anti_materiel.rsi
+    sprite: Objects/Weapons/Guns/Ammunition/Boxes/anti_Material.rsi
   - type: MagazineVisuals
     magState: mag
     steps: 4
@@ -67,13 +67,13 @@
 
 # Boxes
 - type: entity
-  parent: BaseMagazineBoxAntiMateriel
-  id: MagazineBoxAntiMaterielBig
-  name: ammunition box (.60 anti-materiel)
+  parent: BaseMagazineBoxAntiMaterial
+  id: MagazineBoxAntiMaterialBig
+  name: ammunition box (.60 anti-Material)
   components:
   - type: BallisticAmmoProvider
     capacity: 30
-    proto: CartridgeAntiMateriel
+    proto: CartridgeAntiMaterial
   - type: Sprite
     layers:
     - state: base-b
@@ -87,12 +87,12 @@
   - type: Appearance
 
 - type: entity
-  parent: BaseMagazineBoxAntiMateriel
-  id: MagazineBoxAntiMateriel
-  name: ammunition box (.60 anti-materiel)
+  parent: BaseMagazineBoxAntiMaterial
+  id: MagazineBoxAntiMaterial
+  name: ammunition box (.60 anti-Material)
   components:
   - type: BallisticAmmoProvider
-    proto: CartridgeAntiMateriel
+    proto: CartridgeAntiMaterial
   - type: Sprite
     layers:
     - state: base

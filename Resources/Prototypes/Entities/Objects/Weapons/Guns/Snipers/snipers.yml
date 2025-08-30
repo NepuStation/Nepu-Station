@@ -167,21 +167,21 @@
     slots:
       gun_magazine:
         name: Magazine
-        startingItem: MagazineAntiMateriel
+        startingItem: MagazineAntiMaterial
         insertSound: /Audio/Weapons/Guns/MagIn/rifle_load.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/sfrifle_magout.ogg
         priority: 2
         whitelist:
           tags:
-          - MagazineAntiMateriel
+          - MagazineAntiMaterial
         whitelistFailPopup: gun-magazine-whitelist-fail
       gun_chamber:
         name: Chamber
-        startingItem: CartridgeAntiMateriel
+        startingItem: CartridgeAntiMaterial
         priority: 1
         whitelist:
           tags:
-          - CartridgeAntiMateriel
+          - CartridgeAntiMaterial
   - type: ContainerContainer
     containers:
       gun_magazine: !type:ContainerSlot
@@ -194,7 +194,7 @@
   name: Kardashev-Mosin
   parent: [BaseWeaponSniper, BaseGunWieldable, BaseMajorContraband]
   id: WeaponSniperMosin
-  description: A true relic, the Kardashev-Mosin has served in nearly every armed conflict since its creation 670 years ago. The bolt-action design of the rifle remains virtually identical to its original design, whether used for hunting, sniping, or endless trench warfare. Loads 10 rounds of .30 rifle.
+  description: A true relic, the Kardashev-Mosin has served in nearly every armed conflict since its creation 670 years ago. The bolt-action design of the rifle remains virtually identical to its original design, whether used for hunting, sniping, or endless trench warfare. Loads 10 rounds of 7.62x39mm.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Snipers/bolt_gun_wood.rsi
@@ -225,7 +225,7 @@
   name: Hristov
   parent: [BaseWeaponSniperMagazine, BaseGunWieldable, BaseSyndicateContraband]
   id: WeaponSniperHristov
-  description: A portable anti-materiel rifle. Fires armor piercing 14.5mm shells. Uses .60 anti-materiel ammo.
+  description: A portable anti-Material rifle. Fires armor piercing 14.5mm shells. Uses .60 anti-Material ammo.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Snipers/heavy_sniper.rsi
@@ -243,9 +243,9 @@
   #- type: BallisticAmmoProvider - Goobstation - Magazine Sniper
   #  whitelist:
   #    tags:
-  #    - CartridgeAntiMateriel
+  #    - CartridgeAntiMaterial
   #  capacity: 5
-  #  proto: CartridgeAntiMateriel
+  #  proto: CartridgeAntiMaterial
   - type: SpeedModifiedOnWield
     walkModifier: 0.8 # goob edit V
     sprintModifier: 0.8 # goob edit ^
@@ -260,7 +260,7 @@
   name: musket
   parent: [ BaseWeaponSniper, BaseGunWieldable, BaseMajorContraband ]
   id: Musket
-  description: This should've been in a museum long before you were born. Uses .60 anti-materiel ammo.
+  description: This should've been in a museum long before you were born. Uses .60 anti-Material ammo.
   components:
   - type: Sharp
   - type: Item
@@ -280,9 +280,9 @@
   - type: BallisticAmmoProvider
     whitelist:
       tags:
-      - CartridgeAntiMateriel
+      - CartridgeAntiMaterial
     capacity: 1
-    proto: CartridgeAntiMateriel
+    proto: CartridgeAntiMaterial
   #- type: MeleeWeapon # Goobstation - commented this out cause it breaks NPCs and it doesn't work anyway lol
   #  wideAnimationRotation: -135
   #  damage:

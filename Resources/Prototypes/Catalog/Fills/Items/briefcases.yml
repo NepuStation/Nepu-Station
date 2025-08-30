@@ -102,8 +102,8 @@
   - type: StorageFill
     contents:
       - id: WeaponSniperHristov
-      - id: MagazineAntiMateriel # Goobstation
-      - id: MagazineBoxAntiMateriel
+      - id: MagazineAntiMaterial # Goobstation
+      - id: MagazineBoxAntiMaterial
       - id: ClothingNeckTieRed
       - id: ClothingHandsGlovesLatex
       - id: ClothingUniformJumpsuitLawyerBlack

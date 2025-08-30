@@ -23,20 +23,23 @@
 
 - type: entity
   parent: [ BaseCartridge, BaseMajorContraband ]
-  id: CartridgeAntiMateriel
-  name: cartridge (.60 anti-materiel)
+  id: CartridgeAntiMaterial
+  name: cartridge (12.7x99mm)
   components:
   - type: Tag
     tags:
     - Cartridge
-    - CartridgeAntiMateriel
+    - CartridgeAntiMaterial
   - type: CartridgeAmmo
-    proto: BulletAntiMateriel
+    proto: BulletAntiMaterial
   - type: Sprite
     sprite: Objects/Weapons/Guns/Ammunition/Casings/large_casing.rsi
     layers:
     - state: base
       map: ["enum.AmmoVisualLayers.Base"]
+    - state: tip
+      map: ["enum.AmmoVisualLayers.Tip"]
+      color: "#ffaf02"
   - type: Appearance
   - type: SpentAmmoVisuals
   - type: StaticPrice

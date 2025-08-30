@@ -3113,7 +3113,7 @@ entities:
       parent: 1
     - type: Physics
       canCollide: False
-- proto: MagazineBoxAntiMateriel
+- proto: MagazineBoxAntiMaterial
   entities:
   - uid: 464
     components:

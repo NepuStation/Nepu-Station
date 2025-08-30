@@ -18,7 +18,7 @@
   name: Burner
   parent: [BaseWeaponRifle, BaseSyndicateContraband]
   id: WeaponRifleBurner
-  description: A high caliber syndicate gun chambered in .50 caliber, capable of firing anti-materiel and high explosive rounds.
+  description: A high caliber syndicate gun chambered in .50 caliber, capable of firing anti-Material and high explosive rounds.
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Weapons/Guns/Rifles/burner.rsi
@@ -116,7 +116,7 @@
   name: Annie
   parent: [BaseCentcommContraband, BaseWeaponRifle]
   id: WeaponRifleAnnie
-  description: A beast designed to shoulder the weight of impossible missions. Uses .30 rifle ammo.
+  description: A beast designed to shoulder the weight of impossible missions. Uses 7.62x39mm ammo.
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Weapons/Guns/Rifles/annie.rsi

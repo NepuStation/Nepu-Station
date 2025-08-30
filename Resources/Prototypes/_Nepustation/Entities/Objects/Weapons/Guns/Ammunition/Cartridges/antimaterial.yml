@@ -1,0 +1,16 @@
+- type: entity
+  parent: CartridgeAntiMaterial
+  id: CartridgeAntiMaterialSLAP
+  name: cartridge (12.7x99mm SLAP)
+  components:
+  - type: CartridgeAmmo
+    proto: BulletAntiMaterialSLAP
+  - type: StaticPrice
+    price: 200 # It costs 400,000 dollars to fire this weapon, for 12 seconds. - Heavy Weapons Guy, Team Fortress 2
+  - type: Sprite
+    layers:
+      - state: base
+        map: [ "enum.AmmoVisualLayers.Base" ]
+      - state: tip
+        map: [ "enum.AmmoVisualLayers.Tip" ]
+        color: "#ff0000"

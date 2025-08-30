@@ -39,7 +39,7 @@
 - type: entity
   categories: [ HideSpawnMenu ]
   parent: BaseBullet
-  id: BulletAntiMateriel
+  id: BulletAntiMaterial
   name: bullet (12.7x99 mm)
   components:
   - type: Projectile

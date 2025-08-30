@@ -12,7 +12,7 @@
   abstract: true
   parent: [ BaseItem, BaseSyndicateContraband ]
   id: BaseMagazineBoxHighCaliber
-  name: ammunition box (.50 anti-materiel)
+  name: ammunition box (.50 anti-Material)
   components:
   - type: BallisticAmmoProvider
     mayTransfer: true
@@ -27,7 +27,7 @@
     containers:
       ballistic-ammo: !type:Container
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Ammunition/Boxes/anti_materiel.rsi
+    sprite: Objects/Weapons/Guns/Ammunition/Boxes/anti_Material.rsi
     layers:
     - state: base-b
       map: ["enum.GunVisualLayers.Base"]

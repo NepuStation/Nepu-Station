@@ -21,7 +21,7 @@
 
 - type: entity
   id: BaseCartridgeCaselessRifle
-  name: cartridge () # Goob edit
+  name: cartridge (5.7mm) # Goob edit
   parent: [ BaseCartridge, BaseSecurityContraband ]
   abstract: true
   components:
