@@ -29,7 +29,7 @@
   - MagazineHighCaliberEmpty
   - MagazineHighCaliber
   - MagazineBoxHighCaliber
-  - MagazineBoxAntiMateriel
+  - MagazineBoxAntiMaterial
 
 - type: latheRecipePack
   id: LatheMiscStatic

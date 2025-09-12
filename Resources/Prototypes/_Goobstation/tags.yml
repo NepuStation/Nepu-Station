@@ -353,7 +353,7 @@
   id: Lungs
 
 - type: Tag
-  id: MagazineAntiMateriel
+  id: MagazineAntiMaterial
 
 - type: Tag
   id: MagazineHighCaliber

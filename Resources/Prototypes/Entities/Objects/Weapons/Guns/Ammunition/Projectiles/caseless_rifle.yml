@@ -26,21 +26,23 @@
 #
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
+# Nepustation Edit - Arms Race ammo renaming/rebalancing
+
 - type: entity
   id: BulletCaselessRifle
-  name: bullet (9.5mm HP) # Goobstation edit
+  name: bullet (5.7mm FMJ)
   parent: BaseBullet
   categories: [ HideSpawnMenu ]
   components:
   - type: Projectile
     damage:
       types:
-        Piercing: 25 # Goobstation edit
-      armorPenetration: -0.3 # Goobstation
+        Piercing: 20
+      armorPenetration: 0.1
 
 - type: entity
   id: BulletCaselessRiflePractice
-  name: bullet (9.5mm practice) # Goobstation edit
+  name: bullet (5.7mm Blammo)
   parent: BaseBulletPractice
   categories: [ HideSpawnMenu ]
   components:
