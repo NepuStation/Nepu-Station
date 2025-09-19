@@ -1,0 +1,15 @@
+- type: entity
+  id: MagazineMagnumAP
+  name: "magazine (.44 magnum AP)"
+  parent: BaseMagazineMagnum
+  components:
+  - type: BallisticAmmoProvider
+    proto: CartridgeMagnumAP
+
+- type: entity
+  id: MagazineMagnumHP
+  name: "magazine (.44 magnum HP)"
+  parent: BaseMagazineMagnum
+  components:
+  - type: BallisticAmmoProvider
+    proto: CartridgeMagnumHP
