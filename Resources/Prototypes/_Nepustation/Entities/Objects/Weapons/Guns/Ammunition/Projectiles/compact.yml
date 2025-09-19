@@ -1,4 +1,16 @@
 - type: entity
+  id: BulletCompactRifle
+  name: bullet (5.7mm FMJ)
+  parent: BaseBullet
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Projectile
+    damage:
+      types:
+        Piercing: 22.5
+      armorPenetration: 0.15
+
+- type: entity
   id: BulletCompactRifleAP
   name: bullet (5.7mm AP)
   parent: BaseBullet
@@ -31,4 +43,29 @@
   - type: Projectile
     damage:
       types:
-      Piercing: 22.5
+        Piercing: 22.5
+    armorPenetration: 0.1
+
+- type: entity
+  id: BulletAltCompactRifleAP
+  name: bullet (4.6mm AP)
+  parent: BaseBullet
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Projectile
+    damage:
+      types:
+        Piercing: 17.5
+      armorPenetration: 0.2
+
+- type: entity
+  id: BulletAltCompactRifleHP
+  name: bullet (4.6mm HP)
+  parent: BaseBullet
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Projectile
+    damage:
+      types:
+        Piercing: 22.5
+      armorPenetration: -0.2
