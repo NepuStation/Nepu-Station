@@ -1,0 +1,47 @@
+- type: entity
+  id: BulletHeavyPistolHP
+  name: bullet (.45 ACP HP)
+  parent: BaseBullet
+  categories: [ HideSpawnMenu ]
+  components: 
+    - type: Projectile
+      damage:
+        types:
+          Piercing: 22.5
+        armorPenetration: -0.3
+
+- type: entity
+  id: BulletHeavyPistol
+  name: bullet (.45 ACP FMJ)
+  parent: BaseBullet
+  categories: [ HideSpawnMenu ]
+  components: 
+    - type: Projectile
+      damage:
+        types:
+          Piercing: 20
+        armorPenetration: 0.15
+
+- type: entity
+  id: BulletHeavyPistolAP
+  name: bullet (.45 ACP AP)
+  parent: BaseBullet
+  categories: [ HideSpawnMenu ]
+  components: 
+    - type: Projectile
+      damage:
+        types:
+          Piercing: 17.5
+        armorPenetration: 0.3
+
+- type: entity
+  id: BulletHeavyPistol
+  name: bullet (.45 ACP Soulkiller)
+  parent: BaseBullet
+  categories: [ HideSpawnMenu ]
+  components: 
+    - type: Projectile
+      damage:
+        types: # no AP value, holy is already technically AP :godo:
+          Piercing: 5
+          Holy: 20

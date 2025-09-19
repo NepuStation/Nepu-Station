@@ -7,8 +7,8 @@
   - type: Projectile
     damage:
       types:
-        Piercing: 20 # Hollow points are great at taking down targets.
-      armorPenetration: -0.3 # however, they are bad at piercing armor.
+        Piercing: 20 # Hollow points "bloom" on hitting a target. This causes extra wounding and damage.
+      armorPenetration: -0.3 # However, this _also_ means that they fail to penetrate armor as well as FMJs or APs due to the round blooming on impact with armor.
 
 - type: entity
   id: BulletPistolAP
