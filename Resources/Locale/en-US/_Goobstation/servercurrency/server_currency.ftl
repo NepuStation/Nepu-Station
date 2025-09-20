@@ -5,8 +5,8 @@
 #
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
-server-currency-name-singular = Goob Coin
-server-currency-name-plural = Goob Coins
+server-currency-name-singular = Event Coin
+server-currency-name-plural = Event Coins
 
 ## Commands
 
@@ -59,20 +59,27 @@ gs-balanceui-gift-value-tooltip = Amount of money to transfer
 gs-balanceui-shop-label = Tokens Store
 gs-balanceui-shop-empty = Out of stock!
 gs-balanceui-shop-buy = Buy
-gs-balanceui-shop-footer = ⚠ Ahelp to use your token. Only 1 use per day.
+gs-balanceui-shop-footer = ⚠ Ahelp to use your token. Only 1 use per round.
 
 gs-balanceui-shop-token-label = Tokens
 gs-balanceui-shop-tittle-label = Titles
 
-gs-balanceui-shop-buy-token-antag = Buy an Antag Token - {$price} Goob Coins
-gs-balanceui-shop-buy-token-admin-abuse = Buy an Admin Abuse Token - {$price} Goob Coins
-gs-balanceui-shop-buy-token-hat = Buy a Hat Token - {$price} Goob Coins
+gs-balanceui-shop-buy-token-wizard-antag = Buy Wizard antag token - {$price} Event Coins
+gs-balanceui-shop-buy-token-hightier-antag = Buy high tier antag token - {$price} Event Coins
+gs-balanceui-shop-buy-token-midtier-antag = Buy mid tier antag token - {$price} Event Coins
+gs-balanceui-shop-buy-token-lowtier-antag = Buy low tier antag token - {$price} Event Coins
+gs-balanceui-shop-buy-token-ghost = Buy ghost role token - {$price} Event Coins
+gs-balanceui-shop-buy-token-admin-abuse = Buy admin abuse token - {$price} Event Coins
 
 gs-balanceui-shop-token-antag = High Tier Antag Token
 gs-balanceui-shop-token-admin-abuse = Admin Abuse Token
 gs-balanceui-shop-token-hat = Hat Token
 
-gs-balanceui-shop-buy-token-antag-desc = Allows you become any antag. (Excluding Wizards)
+gs-balanceui-shop-buy-token-wizard = Allows you to become a Wizard.
+gs-balanceui-shop-buy-token-hightier-antag-desc = Allows you to become any antag. (Excluding Wizards)
+gs-balanceui-shop-buy-token-midtier-antag-desc = Allows you to become a mid tier antag. (Traitor, Changeling, Heretic, etc.)
+gs-balanceui-shop-buy-token-lowtier-antag-desc = Allows you to become a low tier antag. (Thief, etc.)
+gs-balanceui-shop-buy-token-ghost-desc = Allows you to choose a ghost role.
 gs-balanceui-shop-buy-token-admin-abuse-desc = Allows you to request an admin to abuse their powers against you. Admins are encouraged to go wild.
 gs-balanceui-shop-buy-token-hat-desc = An admin will give you a random hat.
 
