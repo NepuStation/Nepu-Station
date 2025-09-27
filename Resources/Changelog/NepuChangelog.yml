@@ -13,3 +13,9 @@ Entries:
       message: All sanity trying to get this fucking changelog bot to work.
   id: 4
   time: '2025-09-20T02:54:07.0000000+00:00'
+- author: TwoDucksOnnaPlane
+  changes:
+    - type: Add
+      message: Updated to Upstream 9/27/25
+  id: 5
+  time: '2025-09-27T19:08:17.0000000+00:00'
