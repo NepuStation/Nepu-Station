@@ -1,3 +1,6 @@
+#############################################
+# 5.7mm Rounds - Used in the WSPR and Cobra #
+#############################################
 - type: entity
   id: BulletCompactRifle
   name: bullet (5.7mm FMJ)
@@ -34,6 +37,9 @@
         Piercing: 25
       armorPenetration: -0.3
 
+#####################################
+# 4.6mm Bullets - Used in the WT550 #
+#####################################
 - type: entity
   id: BulletAltCompactRifle
   name: bullet (4.6mm)

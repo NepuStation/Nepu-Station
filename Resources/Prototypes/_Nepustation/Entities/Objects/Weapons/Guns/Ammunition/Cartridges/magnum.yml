@@ -1,7 +1,8 @@
 - type: entity
-  parent: BaseCartridgeMagnum
   id: CartridgeMagnumHP
   name: cartridge (.44 Magnum HP)
+  parent: BaseCartridgeMagnum
+  description: Magnum cartridge mostly used by revolvers. This one performs better against unarmored targets.
   components:
   - type: CartridgeAmmo
     proto: BulletMagnumHP
@@ -15,7 +16,7 @@
   id: CartridgeMagnumAP
   name: cartridge (.44 Magnum AP)
   parent: BaseCartridgeMagnum
-  description: Heavy magnum cartridge mostly used by revolvers. Armor piercing ammunition is renowned for its ability to cut straight through body armor.
+  description: Magnum cartridge mostly used by revolvers. This one performs better against armored targets.
   components:
   - type: CartridgeAmmo
     proto: BulletMagnumAP
@@ -28,9 +29,10 @@
         color: "#0a0a0a"
 
 - type: entity
-  parent: BaseCartridgeMagnum
   id: CartridgeMagnumSabot
   name: cartridge (.44 Magnum Sabot)
+  parent: BaseCartridgeMagnum
+  description: Magnum cartridge used mostly by revolvers. This one is loaded with a Depleted Uranium sabot, capable of completely ignoring armor. 
   components:
   - type: CartridgeAmmo
     proto: BulletMagnumSabot

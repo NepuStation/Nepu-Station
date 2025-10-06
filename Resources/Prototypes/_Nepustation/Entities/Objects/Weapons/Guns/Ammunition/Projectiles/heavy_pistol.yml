@@ -1,3 +1,6 @@
+#################################################
+# .45 ACP Rounds - Used in the Vector and N1984 #
+#################################################
 - type: entity
   id: BulletHeavyPistolHP
   name: bullet (.45 ACP HP)
