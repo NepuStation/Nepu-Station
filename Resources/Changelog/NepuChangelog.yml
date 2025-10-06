@@ -19,3 +19,9 @@ Entries:
       message: Updated to Upstream 9/27/25
   id: 5
   time: '2025-09-27T19:08:17.0000000+00:00'
+- author: Upstream
+  changes:
+    - type: Add
+      message: October 6th, 2025 Goob Station
+  id: 6
+  time: '2025-10-06T18:23:03.0000000+00:00'
