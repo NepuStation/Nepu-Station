@@ -4,7 +4,7 @@
   id: CartridgeCompactRifle
 
 - type: Tag
-  id: CartridgeHeavyPistol
+  id: CartridgeAltCompactRifle
 
 - type: Tag
-  id: CartridgeAltCompactRifle
+  id: CartridgeHeavyPistol

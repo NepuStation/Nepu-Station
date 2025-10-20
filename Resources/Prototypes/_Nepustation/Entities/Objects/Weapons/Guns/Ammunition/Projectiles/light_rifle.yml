@@ -1,6 +1,8 @@
+#region 7.62x39mm - Used in the AKM
+
 - type: entity
   id: BulletLightRifleAP
-  name: bullet (7.62x39 mm AP)
+  name: bullet (7.62x39mm AP)
   parent: BaseBullet
   categories: [ HideSpawnMenu ]
   components:
@@ -12,7 +14,7 @@
 
 - type: entity
   id: BulletLightRifleHP
-  name: bullet (7.62x39 mm HP)
+  name: bullet (7.62x39mm HP)
   parent: BaseBullet
   categories: [ HideSpawnMenu ]
   components:
@@ -21,3 +23,5 @@
       types:
         Piercing: 29
       armorPenetration: -0.4
+
+#endregion

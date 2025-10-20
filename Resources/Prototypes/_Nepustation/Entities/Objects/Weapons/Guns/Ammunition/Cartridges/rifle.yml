@@ -1,0 +1,21 @@
+#region 5.56mm Cartridges
+
+- type: entity
+  id: CartridgeRifleAP
+  name: cartridge (5.56mm AP)
+  parent: BaseCartridgeRifle
+  description: 
+  components:
+  - type: CartridgeAmmo
+    proto: BulletRifleAP
+
+- type: entity
+  id: CartridgeRifleHP
+  name: cartridge (5.56mm HP)
+  parent: BaseCartridgeRifle
+  description: 
+  components:
+  - type: CartridgeAmmo
+    proto: BulletRifleHP
+
+#endregion
