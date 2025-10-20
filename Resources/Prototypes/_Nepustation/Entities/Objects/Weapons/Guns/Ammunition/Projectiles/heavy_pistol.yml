@@ -1,6 +1,5 @@
-#################################################
-# .45 ACP Rounds - Used in the Vector and N1984 #
-#################################################
+#region .45 ACP Rounds - Used in the Vector and N1984 
+
 - type: entity
   id: BulletHeavyPistolHP
   name: bullet (.45 ACP HP)
@@ -48,3 +47,5 @@
         types: # no AP value, holy is already technically AP :godo:
           Piercing: 5
           Holy: 20
+
+#endregion

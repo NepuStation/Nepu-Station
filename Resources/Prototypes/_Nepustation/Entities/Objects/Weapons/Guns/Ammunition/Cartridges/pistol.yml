@@ -1,3 +1,5 @@
+#region 9mm Rounds
+
 - type: entity
   id: CartridgeMagnumHP
   name: cartridge (9mm HP)
@@ -27,3 +29,5 @@
       - state: tip
         map: [ "enum.AmmoVisualLayers.Tip" ]
         color: "#0a0a0a"
+
+#endregion

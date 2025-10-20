@@ -1,3 +1,4 @@
+#region .44 Magnum cartridges
 - type: entity
   id: CartridgeMagnumHP
   name: cartridge (.44 Magnum HP)
@@ -44,3 +45,4 @@
         map: [ "enum.AmmoVisualLayers.Tip" ]
         color: "#000000"
 
+#endregion

@@ -1,3 +1,6 @@
+##########################################
+# 12.7x99mm Rounds - Used in the Hristov #
+##########################################
 - type: entity
   categories: [ HideSpawnMenu ]
   parent: BaseBullet
