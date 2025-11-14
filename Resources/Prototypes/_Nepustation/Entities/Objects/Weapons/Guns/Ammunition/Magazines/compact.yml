@@ -1,0 +1,116 @@
+#region Base compact magazines
+
+- type: entity
+  id: BaseMagazineCompactRifle
+  name: "magazine (5.7mm)"
+  parent: [ BaseItem, BaseSecurityContraband ]
+  abstract: true
+  components:
+  - type: Tag
+    tags:
+      - MagazineCompactRifle
+  - type: BallisticAmmoProvider
+    mayTransfer: true
+    whitelist:
+      tags:
+        - CartridgeCompactRifle
+    proto: CartridgeCompactRifle
+    capacity: 50 #high capa high price in uplink
+  - type: Item
+    size: Small
+  - type: ContainerContainer
+    containers:
+      ballistic-ammo: !type:Container
+  - type: Sprite # this is literally just rechambering caseless i'm not making new mags just for it
+    sprite: Objects/Weapons/Guns/Ammunition/Magazine/CaselessRifle/caseless_rifle_mag.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-1
+      map: ["enum.GunVisualLayers.Mag"]
+  - type: MagazineVisuals
+    magState: mag
+    steps: 2
+    zeroVisible: false
+  - type: Appearance
+
+- type: entity
+  id: BaseMagazinePistolCompactRifle
+  name: "pistol magazine (5.7mm)"
+  parent: BaseMagazineCompactRifle
+  abstract: true
+  components:
+  - type: Tag
+    tags:
+      - MagazinePistolCompactRifle
+  - type: BallisticAmmoProvider
+    whitelist:
+      tags:
+        - CartridgeCompactRifle
+    proto: CartridgeCompactRifle
+    capacity: 20 # Five-Seven is double stack
+  - type: Item
+    size: Small
+  - type: Sprite
+    sprite: Objects/Weapons/Guns/Ammunition/Magazine/CaselessRifle/caseless_pistol_mag.rsi
+    layers:
+    - state: base # Goob edit, why do they differ here in uplink
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-1
+      map: ["enum.GunVisualLayers.Mag"]
+  - type: MagazineVisuals
+    magState: mag
+    steps: 6
+    zeroVisible: false
+  - type: Appearance
+
+#endregion
+
+#region 5.7 magazines
+
+#endregion
+
+#region 4.6 magazines
+
+- type: entity
+  id: MagazineAltCompactRifle
+  name: WT550 magazine (4.6mm FMJ)
+  parent: [ BaseItem, BaseSecurityContraband ]
+  description: 30-round top feeding magazine for the WT550 SMG. Intended to hold general-purpose kinetic ammunition.
+  components:
+  - type: Tag
+    tags:
+      - MagazinePistolSubMachineGunTopMounted
+  - type: BallisticAmmoProvider
+    mayTransfer: true
+    proto: CartridgePistol
+    whitelist:
+      tags:
+      - CartridgePistol
+  - type: Sprite
+    sprite: Objects/Weapons/Guns/Ammunition/Magazine/Pistol/smg_mag_top_mounted.rsi
+    layers:
+      - state: base
+        map: ["enum.GunVisualLayers.Base"]
+      - state: mag-unshaded-1
+        map: ["enum.GunVisualLayers.MagUnshaded"]
+        shader: unshaded
+  - type: MagazineVisuals
+    magState: mag
+    steps: 6
+    zeroVisible: false
+  - type: Appearance
+  - type: ContainerContainer
+    containers:
+      ballistic-ammo: !type:Container
+
+- type: entity
+  id: MagazineAltCompactRifleEmpty
+  name: WT550 magazine (4.6mm)
+  parent: MagazinePistolSubMachineGunTopMounted
+  description: Unconventional 30-round top feeding magazine for the WT550 SMG.
+  components:
+  - type: BallisticAmmoProvider
+    proto: null
+
+#endregion

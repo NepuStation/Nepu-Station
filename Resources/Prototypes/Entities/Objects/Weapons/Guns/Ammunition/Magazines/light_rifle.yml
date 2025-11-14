@@ -91,7 +91,7 @@
   id: MagazineLightRifle
   name: "magazine (7.62x39mm)"
   parent: BaseMagazineLightRifle
-  description: Curved 30-round double stack magazine for combat rifles. Intended to hold general-purpose kinetic ammunition.
+  description: Curved 30-round double stack magazine for combat rifles. Intended to hold Full Metal Jacket rounds.
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeLightRifle
