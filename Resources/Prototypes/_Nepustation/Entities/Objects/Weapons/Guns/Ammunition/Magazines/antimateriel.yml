@@ -1,0 +1,7 @@
+- type: entity
+  id: MagazineAntiMaterielSLAP
+  name: "magazine (12.7x99mm SLAP)"
+  parent: BaseMagazineAntiMateriel
+  components:
+  - type: BallisticAmmoProvider
+    proto: CartridgeAntiMaterielSLAP
