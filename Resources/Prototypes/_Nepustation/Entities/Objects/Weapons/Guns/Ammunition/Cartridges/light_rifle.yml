@@ -1,0 +1,21 @@
+#region 7.62x39mm Cartridges
+
+- type: entity
+  id: CartridgeRifleAP
+  name: cartridge (7.62x39mm AP)
+  parent: BaseCartridgeLightRifle
+  description: 
+  components:
+  - type: CartridgeAmmo
+    proto: BulletLightRifleAP
+
+- type: entity
+  id: CartridgeRifleHP
+  name: cartridge (7.62x39mm HP)
+  parent: BaseCartridgeLightRifle
+  description: 
+  components:
+  - type: CartridgeAmmo
+    proto: BulletLightRifleHP
+
+#endregion

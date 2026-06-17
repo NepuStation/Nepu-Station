@@ -23,7 +23,7 @@
 
 - type: entity
   id: BaseMagazineCaselessRifle
-  name: "magazine (9.5mm HP)" # Goob edit
+  name: "magazine (9.5mm HP)"
   parent: [ BaseItem, BaseSecurityContraband ]
   abstract: true
   components:
@@ -57,7 +57,7 @@
 
 - type: entity
   id: BaseMagazineCaselessRifleShort
-  name: "caseless rifle short magazine (9.5mm HP)" # Goob edit
+  name: "caseless rifle short magazine (9.5mm HP)"
   parent: BaseMagazineCaselessRifle
   abstract: true
   components:

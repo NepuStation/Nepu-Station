@@ -1,0 +1,102 @@
+#region 5.7mm Cartridges
+- type: entity
+  id: BaseCartridgeCompactRifle
+  name: cartridge (5.7mm)
+  parent: [ BaseCartridge, BaseSecurityContraband ]
+  abstract: true
+  components:
+  - type: Tag
+    tags:
+      - Cartridge
+      - CartridgeCompactRifle
+  - type: CartridgeAmmo
+  - type: Sprite
+    sprite: Objects/Weapons/Guns/Ammunition/Casings/ammo_casing.rsi
+    layers:
+    - state: base
+      map: ["enum.AmmoVisualLayers.Base"]
+  - type: Appearance
+  - type: SpentAmmoVisuals
+  - type: StaticPrice
+    price: 10
+
+- type: entity
+  id: CartridgeCompactRifle
+  name: cartridge (5.7mm FMJ)
+  parent: BaseCartridgeCompactRifle
+  description: 
+  components:
+  - type: CartridgeAmmo
+    proto: BulletCompactRifle
+
+- type: entity
+  id: CartridgeCompactRifleHP
+  name: cartridge (5.7mm HP)
+  parent: BaseCartridgeCompactRifle
+  description: 
+  components:
+  - type: CartridgeAmmo
+    proto: BulletCompactRifleHP
+
+- type: entity
+  id: CartridgeCompactRifle
+  name: cartridge (5.7mm AP)
+  parent: BaseCartridgeCompactRifle
+  description: 
+  components:
+  - type: CartridgeAmmo
+    proto: BulletCompactRifleAP
+
+#endregion
+
+#region 4.6mm Cartridges
+
+- type: entity
+  id: CartridgeAltCompactRifle
+  name: cartridge (4.6mm FMJ)
+  parent: BaseCartridgeCompactRifle
+  description: 
+  components:
+  - type: CartridgeAmmo
+    proto: BulletCompactRifle
+
+- type: entity
+  id: CartridgeAltCompactRifleHP
+  name: cartridge (4.6mm HP)
+  parent: BaseCartridgeCompactRifle
+  description: 
+  components:
+  - type: CartridgeAmmo
+    proto: BulletAltCompactRifleHP
+
+- type: entity
+  id: CartridgeAltCompactRifleAP
+  name: cartridge (4.6mm AP)
+  parent: BaseCartridgeCompactRifle
+  description: 
+  components:
+  - type: CartridgeAmmo
+    proto: BulletAltCompactRifleAP
+
+#endregion
+
+#region Specials
+
+# not gonna bother but it's here
+#- type: entity
+#  id: CartridgeCompactRiflePractice
+#  name: cartridge (5.7mm Chalk)
+#  parent: BaseCartridgeCompactRifle
+#  description: A small caliber utilizing compact technology, omitting conventional brass casing in favor of hardened propellant. Chalk ammunition is generally non-harmful, used for practice.
+#  components:
+#  - type: CartridgeAmmo
+#    proto: BulletCompactRiflePractice
+#  - type: Sprite
+#    layers:
+#      - state: base
+#        map: [ "enum.AmmoVisualLayers.Base" ]
+#      - state: tip
+#        map: [ "enum.AmmoVisualLayers.Tip" ]
+#        color: "#dbdbdb"
+
+#endregion

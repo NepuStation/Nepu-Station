@@ -1,0 +1,54 @@
+#region Base Cartridge
+- type: entity
+  id: BaseCartridgeHeavyPistol
+  name: cartridge (.45 ACP)
+  parent: [ BaseCartridge, BaseSecurityContraband ]
+  abstract: true
+  components:
+  - type: Tag
+    tags:
+      - Cartridge
+      - CartridgeHeavyPistol
+  - type: CartridgeAmmo
+  - type: Sprite
+    sprite: Objects/Weapons/Guns/Ammunition/Casings/ammo_casing.rsi
+    layers:
+    - state: base
+      map: ["enum.AmmoVisualLayers.Base"]
+  - type: Appearance
+  - type: SpentAmmoVisuals
+  - type: StaticPrice
+    price: 10
+
+#endregion
+
+#region .45 ACP Cartridges
+
+- type: entity
+  id: CartridgeCompactRifle
+  name: cartridge (.45 ACP FMJ)
+  parent: BaseCartridgeHeavyPistol
+  description: 
+  components:
+  - type: CartridgeAmmo
+    proto: BulletHeavyPistol
+
+- type: entity
+  id: CartridgeCompactRifle
+  name: cartridge (.45 ACP AP)
+  parent: BaseCartridgeHeavyPistol
+  description: 
+  components:
+  - type: CartridgeAmmo
+    proto: BulletHeavyPistolAP
+
+- type: entity
+  id: CartridgeCompactRifle
+  name: cartridge (.45 ACP HP)
+  parent: BaseCartridgeHeavyPistol
+  description: 
+  components:
+  - type: CartridgeAmmo
+    proto: BulletHeavyPistolHP
+
+#endregion

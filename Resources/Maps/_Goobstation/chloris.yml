@@ -90610,7 +90610,7 @@ entities:
     - type: Transform
       pos: 31.5,120.5
       parent: 2
-- proto: CartridgeAntiMateriel
+- proto: CartridgeAntiMaterial
   entities:
   - uid: 14124
     components:

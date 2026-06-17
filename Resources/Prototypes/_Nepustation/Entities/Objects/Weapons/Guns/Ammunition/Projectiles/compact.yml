@@ -1,0 +1,79 @@
+#region 5.7mm Rounds - Used in the P120 and Five-Seven
+
+- type: entity
+  id: BulletCompactRifle
+  name: bullet (5.7mm FMJ)
+  parent: BaseBullet
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Projectile
+    damage:
+      types:
+        Piercing: 22.5
+      armorPenetration: 0.15
+
+- type: entity
+  id: BulletCompactRifleAP
+  name: bullet (5.7mm AP)
+  parent: BaseBullet
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Projectile
+    damage:
+      types:
+        Piercing: 17.5
+      armorPenetration: 0.3
+
+- type: entity
+  id: BulletCompactRifleHP
+  name: bullet (5.7mm HP)
+  parent: BaseBullet
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Projectile
+    damage:
+      types:
+        Piercing: 25
+      armorPenetration: -0.3
+
+# endregion
+
+#region 4.6mm Bullets - Used in the MP7
+
+- type: entity
+  id: BulletAltCompactRifle
+  name: bullet (4.6mm FMJ)
+  parent: BaseBullet
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Projectile
+    damage:
+      types:
+        Piercing: 22.5
+    armorPenetration: 0.1
+
+- type: entity
+  id: BulletAltCompactRifleAP
+  name: bullet (4.6mm AP)
+  parent: BaseBullet
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Projectile
+    damage:
+      types:
+        Piercing: 17.5
+      armorPenetration: 0.2
+
+- type: entity
+  id: BulletAltCompactRifleHP
+  name: bullet (4.6mm HP)
+  parent: BaseBullet
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Projectile
+    damage:
+      types:
+        Piercing: 22.5
+      armorPenetration: -0.2
+
+#endregion

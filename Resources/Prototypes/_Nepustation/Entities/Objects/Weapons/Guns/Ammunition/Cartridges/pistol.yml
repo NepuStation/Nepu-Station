@@ -1,0 +1,33 @@
+#region 9mm Rounds
+
+- type: entity
+  id: CartridgeMagnumHP
+  name: cartridge (9mm HP)
+  parent: BaseCartridgePistol
+  description: A common round used in pistols or submachine guns. This one performs better against unarmored targets.
+  components:
+  - type: CartridgeAmmo
+    proto: BulletPistolHP
+  - type: Sprite
+    layers:
+      - state: base
+        map: [ "enum.AmmoVisualLayers.Base" ]
+        color: "#705f46"
+
+- type: entity
+  id: CartridgeMagnumAP
+  name: cartridge (9mm AP)
+  parent: BaseCartridgePistol
+  description: A common round used in pistols or submachine guns. This one performs better against armored targets.
+  components:
+  - type: CartridgeAmmo
+    proto: BulletPistolAP
+  - type: Sprite
+    layers:
+      - state: base
+        map: [ "enum.AmmoVisualLayers.Base" ]
+      - state: tip
+        map: [ "enum.AmmoVisualLayers.Tip" ]
+        color: "#0a0a0a"
+
+#endregion

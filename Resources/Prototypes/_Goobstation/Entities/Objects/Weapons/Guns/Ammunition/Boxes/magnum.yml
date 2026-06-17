@@ -23,7 +23,7 @@
 #- type: entity
 #  id: MagazineBoxMagnumEnsnaring
 #  parent: BaseMagazineBoxMagnumExtended
-#  name: ammunition box (.45 magnum ensnaring)
+#  name: ammunition box (.44 Magnum ensnaring)
 #  components:
 #  - type: BallisticAmmoProvider
 #    proto: CartridgeMagnumEnsnaring
@@ -39,7 +39,7 @@
 #- type: entity
 #  id: MagazineBoxMagnumEMP
 #  parent: BaseMagazineBoxMagnumExtended
-#  name: ammunition box (.45 magnum EMP)
+#  name: ammunition box (.44 Magnum EMP)
 #  components:
 #  - type: BallisticAmmoProvider
 #    proto: CartridgeMagnumEMP
@@ -55,7 +55,7 @@
 #- type: entity
 #  id: MagazineBoxMagnumFlash
 #  parent: BaseMagazineBoxMagnumExtended
-#  name: ammunition box (.45 magnum flash)
+#  name: ammunition box (.44 Magnum flash)
 #  components:
 #  - type: BallisticAmmoProvider
 #    proto: CartridgeMagnumFlash
@@ -71,7 +71,7 @@
 - type: entity
   id: MagazineBoxMagnumNeurotoxin
   parent: BaseMagazineBoxMagnum
-  name: ammunition box (.45 magnum neurotoxin)
+  name: ammunition box (.44 Magnum neurotoxin)
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeMagnumNeurotoxin

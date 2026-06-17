@@ -1,0 +1,10 @@
+# Ammo tags for new calibers
+
+- type: Tag
+  id: CartridgeCompactRifle
+
+- type: Tag
+  id: CartridgeAltCompactRifle
+
+- type: Tag
+  id: CartridgeHeavyPistol

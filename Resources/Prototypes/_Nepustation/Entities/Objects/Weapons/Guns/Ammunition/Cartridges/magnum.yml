@@ -1,0 +1,48 @@
+#region .44 Magnum cartridges
+- type: entity
+  id: CartridgeMagnumHP
+  name: cartridge (.44 Magnum HP)
+  parent: BaseCartridgeMagnum
+  description: Magnum cartridge mostly used by revolvers. This one performs better against unarmored targets.
+  components:
+  - type: CartridgeAmmo
+    proto: BulletMagnumHP
+  - type: Sprite
+    layers:
+      - state: base
+        map: [ "enum.AmmoVisualLayers.Base" ]
+        color: "#705f46"
+
+- type: entity
+  id: CartridgeMagnumAP
+  name: cartridge (.44 Magnum AP)
+  parent: BaseCartridgeMagnum
+  description: Magnum cartridge mostly used by revolvers. This one performs better against armored targets.
+  components:
+  - type: CartridgeAmmo
+    proto: BulletMagnumAP
+  - type: Sprite
+    layers:
+      - state: base
+        map: [ "enum.AmmoVisualLayers.Base" ]
+      - state: tip
+        map: [ "enum.AmmoVisualLayers.Tip" ]
+        color: "#0a0a0a"
+
+- type: entity
+  id: CartridgeMagnumSabot
+  name: cartridge (.44 Magnum Sabot)
+  parent: BaseCartridgeMagnum
+  description: Magnum cartridge used mostly by revolvers. This one is loaded with a Depleted Uranium sabot, capable of completely ignoring armor. 
+  components:
+  - type: CartridgeAmmo
+    proto: BulletMagnumSabot
+  - type: Sprite
+    layers:
+      - state: base
+        map: [ "enum.AmmoVisualLayers.Base" ]
+      - state: tip
+        map: [ "enum.AmmoVisualLayers.Tip" ]
+        color: "#000000"
+
+#endregion

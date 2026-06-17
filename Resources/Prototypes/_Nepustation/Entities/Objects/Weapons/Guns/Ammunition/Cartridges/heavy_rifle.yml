@@ -1,0 +1,20 @@
+#region 7.62x54mmR Cartridges
+- type: entity
+  id: CartridgeHeavyRifleAP
+  name: cartridge (7.62x54mmR AP)
+  parent: BaseCartridgeHeavyRifle
+  description: 
+  components:
+  - type: CartridgeAmmo
+    proto: BulletHeavyRifleAP
+
+- type: entity
+  id: CartridgeHeavyRifleHP
+  name: cartridge (7.62x54mmR HP)
+  parent: BaseCartridgeHeavyRifle
+  description: 
+  components:
+  - type: CartridgeAmmo
+    proto: BulletHeavyRifleHP
+
+#endregion

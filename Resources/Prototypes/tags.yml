@@ -486,7 +486,7 @@
   id: Cartridge
 
 - type: Tag
-  id: CartridgeAntiMateriel
+  id: CartridgeAntiMaterial
 
 - type: Tag
   id: CartridgeCap

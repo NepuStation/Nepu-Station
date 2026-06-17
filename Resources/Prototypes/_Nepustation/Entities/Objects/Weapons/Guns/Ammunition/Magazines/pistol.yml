@@ -1,0 +1,15 @@
+- type: entity
+  id: MagazinePistolAP
+  name: "magazine (9mm AP)"
+  parent: BaseMagazinePistol
+  components:
+  - type: BallisticAmmoProvider
+    proto: CartridgePistolAP
+
+- type: entity
+  id: MagazinePistolHP
+  name: "magazine (9mm HP)"
+  parent: BaseMagazinePistol
+  components:
+  - type: BallisticAmmoProvider
+    proto: CartridgePistolHP

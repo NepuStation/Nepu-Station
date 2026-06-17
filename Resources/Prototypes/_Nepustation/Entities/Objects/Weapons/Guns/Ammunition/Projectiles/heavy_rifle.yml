@@ -1,0 +1,63 @@
+#region 7.62x54mmR - Used in the Mosin-Nagant and SVD-6V1
+
+- type: entity
+  id: BulletHeavyRifleAP
+  name: bullet (7.62x54mmR AP)
+  parent: BaseBullet
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Projectile
+    damage:
+      types:
+        Piercing: 20
+      armorPenetration: 0.6
+
+- type: entity
+  id: BulletHeavyRifleHP
+  name: bullet (7.62x54mmR HP)
+  parent: BaseBullet
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Projectile
+    damage:
+      types:
+        Piercing: 35
+      armorPenetration: -0.4
+
+#region 7.62x54mmR Specials
+- type: entity
+  id: BulletHeavyRiflePractice
+  name: bullet (7.62x54mmR Chalk)
+  parent: BaseBulletPractice
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Projectile
+    damage:
+      types:
+        Blunt: 2
+
+- type: entity
+  id: BulletHeavyRifleIncendiary
+  parent: BaseBulletIncendiary
+  name: bullet (7.62x54mmR incendiary)
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Projectile
+    damage:
+      types:
+        Blunt: 4
+        Heat: 4
+
+- type: entity
+  id: BulletHeavyRifleUranium
+  parent: BaseBulletUranium
+  name: bullet (7.62x54mmR uranium)
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Projectile
+    damage:
+      types:
+        Radiation: 10
+        Piercing: 11
+
+#endregion

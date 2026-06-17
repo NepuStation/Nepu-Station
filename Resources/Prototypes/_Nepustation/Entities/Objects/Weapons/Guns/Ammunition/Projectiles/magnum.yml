@@ -1,0 +1,35 @@
+- type: entity
+  id: BulletMagnumAP
+  name: bullet (.44 magnum AP)
+  parent: BaseBullet
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Projectile
+    damage:
+      types:
+        Piercing: 30
+      armorPenetration: 0.4
+
+- type: entity
+  id: BulletMagnumHP
+  name: bullet (.44 magnum HP)
+  parent: BaseBullet
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Projectile
+    damage:
+      types:
+        Piercing: 50
+      armorPenetration: -0.4
+
+- type: entity
+  id: BulletMagnumSabot
+  name: bullet (.44 magnum sabot)
+  parent: BaseBullet
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Projectile
+    damage:
+      types:
+        Piercing: 40
+      armorPenetration: 1

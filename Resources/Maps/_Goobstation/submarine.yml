@@ -202539,7 +202539,7 @@ entities:
     - type: Transform
       pos: 81.5,54.5
       parent: 2
-- proto: MagazineBoxAntiMateriel
+- proto: MagazineBoxAntiMaterial
   entities:
   - uid: 15204
     components:
@@ -272995,7 +272995,7 @@ entities:
   - uid: 13324
     components:
     - type: MetaData
-      desc: Found on a grassy knoll in Texas. It is inscribed with the initials 'LHO'. A portable anti-materiel rifle. Fires armor piercing 14.5mm shells. Uses .60 anti-materiel ammo.
+      desc: Found on a grassy knoll in Texas. It is inscribed with the initials 'LHO'. A portable anti-Material rifle. Fires armor piercing 14.5mm shells. Uses .60 anti-Material ammo.
       name: HoS' Trophy Hristov
     - type: Transform
       parent: 13323
